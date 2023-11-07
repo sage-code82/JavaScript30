@@ -20,9 +20,10 @@ Time Taken - end time 23:40 (50minutes)
 ## Challenge 2 - JS Clock
 
 Estimated Time to Complete 1 hour - Time Started 10:30pm
-Time Taken and Time Finished
-Notes on Task
+Time Taken and Time Finished 10:54pm (24 minutes)
+Notes on Task still need to add the colors for the CSS etc will do that tomorrow in my lunch break (07.11.23)
 
 ### Stretch goal
 
-Add the clock face numbers to the clock.
+Add the clock face numbers to the clock, maybe have a star wars theme
+Add a ticking sound to the clocj
