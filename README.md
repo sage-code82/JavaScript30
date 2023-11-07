@@ -16,3 +16,13 @@ Random colour circles to appear on the page every time you press a key.
 
 Estimated Time to lCompleate - 1 hour time started 22:50pm (05.11.23)
 Time Taken - end time 23:40 (50minutes)
+
+## Challenge 2 - JS Clock
+
+Estimated Time to Complete 1 hour - Time Started 10:30pm
+Time Taken and Time Finished
+Notes on Task
+
+### Stretch goal
+
+Add the clock face numbers to the clock.
