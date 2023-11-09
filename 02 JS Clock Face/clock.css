@@ -5,6 +5,7 @@ body {
   flex: 1;
   min-height: 100vh;
   align-items: center;
+  background-color: grey;
 }
 
 .clock {
@@ -32,8 +33,31 @@ body {
   background: black;
   position: absolute;
   top: 50%;
+  /*  Default is 50%, in the center, 0 is left, 100% is right, we want right*/
   transform-origin: 100%;
+  /*  Rotate 90deg for 12:00 starting point  */
   transform: rotate(90deg);
-  transition: all 0.05s;
+  /* Apply transitions to all inherited transitionable properties*/
+  transition: all 0.5s;
+  /* Recreate that old clock look with bouncing hands */
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.min-hand {
+  border: 1px solid black;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.hour-hand {
+  height: 6px;
+  border: 1px solid black;
+  width: 30%;
+  left: 20%;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.second-hand {
+  background-color: red;
 }
