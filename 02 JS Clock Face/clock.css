@@ -1,22 +1,35 @@
 body {
-  margin: 0;
   font-size: 2rem;
   display: flex;
   flex: 1;
   min-height: 100vh;
   align-items: center;
-  background-color: grey;
+}
+
+.center-circle {
+  position: absolute;
+  top: 48%;
+  right: 47%;
+  bottom: 48%;
+  left: 47%;
+  color: white;
+  background: black;
+  border: thick solid black;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
 }
 
 .clock {
   width: 30rem;
   height: 30rem;
-  border: 20px solid white;
+  border: 20px solid black;
   border-radius: 50%;
   margin: 50px auto;
   position: relative;
   padding: 2rem;
-  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef,
+  background-color: white;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #121212,
     inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -24,7 +37,9 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  transform: translateY(-3px);
+  transform: translateY(-4px);
+  border-radius: 50%;
+  transform-origin: 100%;
 }
 
 .hand {
@@ -33,13 +48,9 @@ body {
   background: black;
   position: absolute;
   top: 50%;
-  /*  Default is 50%, in the center, 0 is left, 100% is right, we want right*/
   transform-origin: 100%;
-  /*  Rotate 90deg for 12:00 starting point  */
   transform: rotate(90deg);
-  /* Apply transitions to all inherited transitionable properties*/
   transition: all 0.5s;
-  /* Recreate that old clock look with bouncing hands */
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 
@@ -60,4 +71,73 @@ body {
 
 .second-hand {
   background-color: red;
+}
+
+.ticks {
+  .tick {
+    position: absolute;
+    background: black;
+  }
+  .three {
+    top: 0%;
+    right: 0;
+    left: 1600%;
+    bottom: 0;
+    height: 8px;
+    width: 20px;
+  }
+  .six {
+    width: 8px;
+    height: 20px;
+    bottom: 1600%;
+  }
+  .nine {
+    height: 8px;
+    width: 20px;
+    right: 1600%;
+  }
+  .twelve {
+    width: 8px;
+    height: 20px;
+    top: 1600%;
+  }
+}
+
+.numbers {
+  .number {
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .twelve {
+    top: 0.25em;
+    right: 47%;
+    bottom: 95%;
+    left: 47%;
+  }
+
+  .three {
+    top: 48%;
+    right: 0%;
+    bottom: 48%;
+    left: 94%;
+  }
+
+  .six {
+    top: 95%;
+    right: 47%;
+    bottom: 1em;
+    left: 48%;
+  }
+
+  .nine {
+    top: 48%;
+    right: 0%;
+    bottom: 48%;
+    left: 0%;
+  }
 }
