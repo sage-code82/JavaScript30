@@ -25,5 +25,9 @@ Notes on Task still need to add the colors for the CSS etc will do that tomorrow
 
 ### Stretch goal
 
-Add the clock face numbers to the clock, maybe have a star wars theme
-Add a ticking sound to the clocj
+Add the clock face numbers to the clock. This was hard!!! Managed to do the 12,3,6 and 9 several attempts at a full face had comical effects 13.11.23
+
+## Challenge 3 - Fun with CSS
+
+Estimated Time to Complete 1 hour - Time Started 9:30pm
+Image is from Photo by <a href="https://unsplash.com/@dubai_love_story?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Agnieszka Stankiewicz</a> on <a href="https://unsplash.com/photos/selective-focus-photography-of-star-wars-stormtroopers-c0VRNWVEjOA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
