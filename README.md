@@ -31,3 +31,6 @@ Add the clock face numbers to the clock. This was hard!!! Managed to do the 12,3
 
 Estimated Time to Complete 1 hour - Time Started 9:30pm
 Image is from Photo by <a href="https://unsplash.com/@dubai_love_story?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Agnieszka Stankiewicz</a> on <a href="https://unsplash.com/photos/selective-focus-photography-of-star-wars-stormtroopers-c0VRNWVEjOA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Time Taken and Time Finished : 10:04pm (34 minutes)
+Was quite a straight forward code along but will help me get round spacing and the blur effect is going to be useful in the future.
